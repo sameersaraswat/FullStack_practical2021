@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .center {
+           margin-top: 10px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       }
+       .color{
+           color:white;
+       }
+       .circle {
+            display: inline-block;
+            background: orange;
+            width: 120px;
+            height: 100px;
+            justify-content: space-between;
+            border-radius: 50%;
+       }
+       .cir{
+           display: flex;
+           justify-content: space-between;
+       }
+       .container1{
+           display: flex;
+       }
+       .container2{
+           margin-right: 20px;
+           background: rgb(161, 160, 160);
+           height: 200px;
+           width: 50%;
+       }
+       .container3{
+           display: flex;
+           flex-direction: column;
+           width:50%;
+       }
+       .container4{
+           width: 100%;
+           background:orange;
+           margin-bottom: 2px;
+           height: 100%;
+       }
+       .container5{
+           display: inline-block;
+           width: 100%;
+           height: 270px;
+           background:red;
+           margin-right: 20px;
+       }
+    </style>
+</head>
+<body>
+    <div style="background: rgb(138, 137, 137); height: 40px;" class="navbar center color">
+        Header
+    </div>
+    <div style="margin-top:10px;background: rgb(153, 153, 194);height: 250px;" class="center color">
+        Banner
+    </div>
+    <div class="center" style="font:bolder; margin-top: 10px;">
+        Section-1
+    </div>
+    <div class="cir">
+        <span class="circle"></span><span class="circle"></span><span class="circle"></span><span class="circle" style="margin-right: 0px;"></span>
+    </div>
+    <div class="center">
+        Section-2
+    </div>
+    <div class="container1 color">
+        <div class="container2 center">
+            Main Content
+        </div>
+        <div class="container3">
+            <div class="container4 center">Article 1</div>
+            <div class="container4 center">Article 2</div>
+            <div class="container4 center" style="margin-bottom: 0px;">Article 3</div>
+        </div>
+    </div>
+    <div class="center">
+        Section-3
+    </div>
+    <div class="center">
+        <span class="container5"></span><span class="container5"></span><span class="container5"></span><span style="margin-right: 0px" class="container5"></span>
+    </div>
+    <div class="center">
+        Section-4
+    </div>
+    <div class="center color" style="background-color: rgb(241, 147, 163); height: 40px;;">
+        Footer
+    </div>
+</body>
+</html>
