@@ -1,104 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Practical 14</title>
-
-    <style>
-        body {
-            text-align: center;
-            margin: auto;
-            align-items: center;
-            background-color: gray;
-        }
-
-        .container {
-            justify-content: center;
-            align-items: center;
-            display: flex;
-            height: 100%;
-            text-align: center;
-        }
-
-        button {
-            width: 60px;
-            height: 60px;
-            font-size: 30px;
-            background-color: yellow;
-            color: black;
-        }
-
-        button:disabled {
-            background-color: rgb(236, 236, 161);
-            color: rgb(100, 99, 99);
-        }
-
-        .dec {
-            position: absolute;
-            left: 40%;
-            top: 15%;
-        }
-
-        .inc {
-            position: absolute;
-            right: 40%;
-            top: 15%;
-        }
-
-        button:hover {
-            background-color: greenyellow;
-            color: grey;
-        }
-
-        h2 {
-            color: yellow;
-            font-size: 45px;
-            position: absolute;
-            left: 49.5%;
-            top: 11%;
-        }
-
-        h1 {
-            font-size: 40px;
-            color: white;
-            text-align: center;
-            font-family: "Times New Roman", Times, serif;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-
 <body>
-    <h1>COUNTER</h1>
-
-    <div="container">
-        <button class="inc" onclick="increment()">+</button>
-        <h2 id="counting"></h2>
-        <button id="decc" class="dec" onclick="decrement()">-</button>
-    </div>
-
-    <script>
-        var data = 0;
-        var bt = document.getElementById("decc");
-        bt.disabled = true;
-        document.getElementById("counting").innerText = data;
-        function increment() {
-            var bt = document.getElementById("decc");
-            bt.disabled = false;
-            data = data + 1;
-            document.getElementById("counting").innerText = data;
-        }
-        function decrement() {
-            var bt = document.getElementById("decc");
-            data = data - 1;
-            document.getElementById("counting").innerText = data;
-            if (data <= 0) {
-                bt.disabled = true;
-            }
-        }
-    </script>
+    <h1>Welcome to the live Practical book</h1>
+        <br>
+        This is live practical book for the subject Fullstack Web Development-1. In this book we are preforming all the practicals related to front end web development including
+        topics from HTML, CSS,JS and Bootstrap. this book is hosted on google cloud platform.you can view all the practicals from this Book.
+        <br>
+        <br>
+    1.create your first web page using vs code and online sandbox environment- <a href="./practical1.html"> Practical-1</a>
+    <br>
+    <br>
+    2.create a web page showing a basic html structure using character entities and span tags- <a href="./practical2.html">Practical-2</a>
+    <br>
+    <br>
+    3.Live your first web page with github- <a href="./practical3.html">Practical-3 </a> 
+    <br>
+    <br>
+    4.create a website that contains the list of all the practicals and their individual practical page links <a href="./index.html"> Practical-4</Practical-4></a>
+    <br>
+    <br>
+    5.Create a Web-Page showing the use of Image-Map in the Web Application<a href="./practical5.html" target="_blank">Practical-5</a>
+    <br>
+    <br>
+    6.Create following layout using css layout properties<a href="./practical6.html" target="_blank">Practical-6</a>
+    <br>
+    <br>
+    7.Create a Web Page Layout using div tags.<a href="./practical7.html" target="_blank">Practical-7</a>
+    <br>
+    <br>
+    8.Create a Web Page having Fixed Navigation Bar with the given content.<a href="./practical8.html " target="_blank">Practical-8</a>
+    <br>
+    <br>
+    9.Create a Responsive Web Layout with Responsive Navigation Bar.<a href="./practical9.html" target="_blank">Practical-9</a>
+    <br>
+    <br>
+    10.Create a Responsive Side-Bar Navigation Menu.<a href="./practical10.html" target="_blank">Practical-10</a>
+    <br>
+    <br>
+    11.Create a Responsive Footer Template.<a href="./practical11.html" target="_blank">Practical-11</a>
+    <br>
+    <br>
+    12.Create a Table that represent Live Practical Book Records.<a href="./practical12.html" target="_blank">Practical-12</a>
+    <br>
+    <br>
+    13.Custom Price Template.<a href="./practical13.html" target="_blank">Practical-13</a>
+    <br>
+    <br>
+    14.Create a Counter Page using JavaScript as per the attached Templates.<a href="./practical14.html" target="_blank">Practical-14</a>
 </body>
-
 </html>
